@@ -1,0 +1,11 @@
+- Class: meta
+  Course: TestCourse1
+  Lesson: TestLesson1
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.2.21
+
+- Class: text
+  Output: 中文測試
+
