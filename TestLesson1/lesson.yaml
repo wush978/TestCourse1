@@ -56,3 +56,8 @@
     這些問題都是需要搭配系統的架構後，才能妥善解決的問題。我們也要先警告同學，如果直接用R 大量
     的撈取線上資料庫，是有可能影響資料庫的效能的。所以如果在實務使用時，最好是先知會與請教負責資料庫
     系統的同仁。
+- Class: mult_question
+  Output: 請問下列哪一個選項「不是」DBI套件`dbWriteTable`的參數？
+  AnswerChoices: conn;name;value;overwrite
+  CorrectAnswer: overwrite
+  AnswerTests: omnitest(correctVal = "overwrite")
